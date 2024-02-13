@@ -4,13 +4,7 @@
   напишіть скорочену ініціалізацію.
 */
 
-interface StudentInterface {
-  name: string;
-  age: number;
-  grade: string;
-}
-
-class Student implements StudentInterface {
+class Student {
   constructor(public name: string, public age: number, public grade: string) {
     this.name = name;
     this.age = age;
